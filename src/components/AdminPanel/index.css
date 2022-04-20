@@ -1,0 +1,22 @@
+.admin-panel {
+ padding: 20px;
+}
+
+.search-bar{
+    width: 70%;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid lightskyblue;
+    margin-bottom: 20px;
+}
+/* .table-data{
+    width: 100%;
+    padding: 20px;
+} */
+
+/* @media (max-width: 560px){
+    .admin-panel{
+        padding: 0px;
+        width: 100vw;
+    }
+} */

@@ -1,0 +1,31 @@
+.users-table-container {
+  display: flex;
+  justify-content: center;
+}
+.users-table {
+  width: 100%;
+}
+.headings {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  text-align: left;
+}
+.mobile-heading {
+  display: none;
+}
+@media (max-width: 560px) {
+  .users-table-container {
+    box-sizing: content-box;
+  }
+  .headings {
+    width: 100%;
+    justify-content: center;
+  }
+  .heading {
+    display: none;
+  }
+  .mobile-heading {
+    display: block;
+  }
+}

@@ -1,0 +1,12 @@
+.page-numbers{
+    display: flex;
+    justify-content: center;
+}
+.page-number{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(127, 172, 199);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
